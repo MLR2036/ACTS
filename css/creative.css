@@ -9688,7 +9688,7 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);  
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.534), rgba(0, 0, 0, 0.856) 50%), url("..img/portfolio/Logos/Acts1.jpeg");
+  background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(0, 0, 0) 50%), url("..img/portfolio/Logos/Acts1.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
