@@ -9664,16 +9664,26 @@ hr.light {
   }
 }
 
-
-.ourcols{
- 
- width:90%;
+.leftside, .rightside{
+  
+  
 }
 
-.sabbathcol{
+@media screen and (min-width:768px){
+  .leftside, .rightside{
+    height: 100vh;
+  } 
+}
+
+.leftside{
+ width: 90%;
+ 
+}
+
+.rightside{
   
   width:10%;
-  background: white;
+  background: rgb(0, 0, 0);
 }
 header.masthead {
   padding-top: 10rem;
