@@ -6219,8 +6219,8 @@ a.close.disabled {
 }
 
 .bg-primary {
-  /* background-color: #5c5858 !important; */
-  background: linear-gradient(to top, rgba(255, 255, 255, 0.534), rgba(0, 0, 0, 0.856) 50%) !important;
+   background-color: #ffffff !important; */
+ /* background: linear-gradient(to top, rgb(255, 255, 255), rgba(199, 197, 197, 0) 50%) !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
