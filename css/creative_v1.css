@@ -2270,36 +2270,36 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #ee763f;
-  border-color: #f4623a;
+  background-color: #ce8906;
+  border-color: #000000;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #f24516;
-  border-color: #ee3e0d;
+  background-color: #eeb758;
+  border-color: #000000;
 }
 
 .btn-primary:focus, .btn-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(246, 122, 88, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(163, 161, 2, 0.911);
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
-  background-color: #f4623a;
-  border-color: #f4623a;
+  background-color: #865802;
+  border-color: #865802;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #ee3e0d;
-  border-color: #e23a0d;
+  background-color: #976302;
+  border-color: #976302;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(246, 122, 88, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(163, 161, 2, 0.911);
 }
 
 .btn-secondary {
@@ -7412,6 +7412,10 @@ button.bg-dark:focus {
   height: 100% !important;
 }
 
+.h-150 {
+  height: 150% !important;
+}
+
 .h-auto {
   height: auto !important;
 }
@@ -9587,7 +9591,7 @@ html {
 hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
-  border-color: #f4623a;
+  border-color: #ce8906;
 }
 
 hr.light {
@@ -9722,6 +9726,31 @@ header.masthead h3{
   font-size: 3rem;
   
 
+}
+
+.spirituality{
+  background: url("../img/ACTS-Images/Bible.jpg") no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* will need this for sabbath col - no-repeat center center fixed */
+}
+
+.service{
+  background: url("../img/ACTS-Images/Palms.jpg") no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.sociality{
+  background: url("../img/ACTS-Images/jump.jpg") no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 @media (min-width: 992px) {
