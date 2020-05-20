@@ -7412,8 +7412,8 @@ button.bg-dark:focus {
   height: 100% !important;
 }
 
-.h-150 {
-  height: 150% !important;
+.h-180 {
+  height: 180% !important;
 }
 
 .h-auto {
@@ -9728,12 +9728,26 @@ header.masthead h3{
 
 }
 
+.contact{
+  background: url("../img/ACTS-Images/hello.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #ffffff;
+  /* #f4623a */
+}
+
 .spirituality{
   background: url("../img/ACTS-Images/Bible.jpg") no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  color:#ffffff;
+  font-weight: 800;
+  text-align: center;
+  
   /* will need this for sabbath col - no-repeat center center fixed */
 }
 
@@ -9743,6 +9757,9 @@ header.masthead h3{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  color: #ffffff;
+  font-weight: 800;
+  text-align: center;
 }
 
 .sociality{
@@ -9751,7 +9768,12 @@ header.masthead h3{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  color: #ffffff;
+  font-weight: 800;
+  text-align: center;
+  
 }
+
 
 @media (min-width: 992px) {
   header.masthead {
