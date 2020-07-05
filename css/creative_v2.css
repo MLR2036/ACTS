@@ -9738,8 +9738,35 @@ header.masthead h3{
   /* #f4623a */
 }
 
-.spirituality{
-  background: url("../img/ACTS-Images/Bible.jpg") no-repeat center center; 
+.pillar-box-caption{
+  opacity: 0;
+  color: rgb(255, 255, 255);
+  background: rgba(0, 0, 0, 0.719);
+   transition: opacity 0.25s ease; 
+  text-align: center;
+}
+
+.pillar-box:hover .pillar-box-caption
+{
+  opacity: 1;
+}
+
+
+.pillar-box-spirituality{
+  background: url("../img/ACTS-Images/Bible.jpg") no-repeat center center;  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color:#ffffff;
+  font-weight: 800;
+  text-align: center;
+ 
+  /* will need this for sabbath col - no-repeat center center fixed */
+}
+
+.pillar-box-service{
+  background: url("../img/ACTS-Images/Palms.jpg") no-repeat center center;  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -9748,27 +9775,15 @@ header.masthead h3{
   font-weight: 800;
   text-align: center;
   
-  /* will need this for sabbath col - no-repeat center center fixed */
 }
 
-.service{
-  background: url("../img/ACTS-Images/Palms.jpg") no-repeat center center; 
+.pillar-box-sociality{
+  background: url("../img/ACTS-Images/jump.jpg") no-repeat center center;  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  color: #ffffff;
-  font-weight: 800;
-  text-align: center;
-}
-
-.sociality{
-  background: url("../img/ACTS-Images/jump.jpg") no-repeat center center; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  color: #ffffff;
+  color:#ffffff;
   font-weight: 800;
   text-align: center;
   
@@ -9839,9 +9854,9 @@ header.masthead h3{
   position: absolute;
   bottom: 0;
   text-align: center;
-  opacity: 0.7;
-  color: rgb(255, 255, 255);
-  background: rgba(0, 0, 0, 0.719);
+  opacity: 0.5;
+  color: #f8f9fa
+  background: rgba(0, 0, 0, 0.9);
    transition: opacity 0.25s ease; 
   text-align: center;
 }
