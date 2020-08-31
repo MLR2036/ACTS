@@ -4847,18 +4847,19 @@ a.badge-dark:focus, a.badge-dark.focus {
   box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
 }
 
-.jumbotron {
-  padding: 2rem 1rem;
+header.jumbotron {
+  padding: 15rem 1rem;
   margin-bottom: 2rem;
+  background-image: url("../img/ACTS-Images/welcome2.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;  
+  background-size: cover;
   background-color: #e9ecef;
   border-radius: 0.3rem;
 }
 
-@media (min-width: 576px) {
-  .jumbotron {
-    padding: 4rem 2rem;
-  }
-}
+
 
 .jumbotron-fluid {
   padding-right: 0;
@@ -9700,16 +9701,7 @@ hr.light {
   width:10%;
   background: rgb(0, 0, 0);
 }
-header.masthead {
-  padding-top: 10rem;
-  padding-bottom: calc(10rem - 72px);  
-  /* background: linear-gradient(to bottom, rgba(92, 77, 66, 0.623) 0%, rgba(92, 77, 66, 0.623) 100%), url("../img/bg-masthead.jpg"); */
-  background: url("../img/ACTS-Images/welcome2.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-}
+
 
 header.masthead h1 {
   margin-block-start: -0.5em;
@@ -9731,11 +9723,27 @@ header.masthead h3{
 }
 
 .contact{
-  background: url("../img/ACTS-Images/hello.jpg") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  
+  background-image: url("../img/ACTS-Images/hello.jpg");
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;  
+  background-size: contain;
+  background-color: transparent;
+  border-radius: 0.3rem;
+  color: #ffffff;
+  /* #f4623a */
+}
+
+.contactbig{
+ 
+  background-image: url("../img/ACTS-Images/hellobig.jpg");
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;  
   background-size: cover;
+  background-color: #e9ecef;
+  border-radius: 0.3rem;
   color: #ffffff;
   /* #f4623a */
 }
