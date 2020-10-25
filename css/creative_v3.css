@@ -596,7 +596,13 @@ pre code {
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1140px;
+    max-width: 1160px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .container {
+    max-width: 1540px;
   }
 }
 
@@ -4847,25 +4853,37 @@ a.badge-dark:focus, a.badge-dark.focus {
   box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
 }
 
-header.jumbotron {
-  padding: 15rem 1rem;
-  margin-bottom: 2rem;
+/* header.jumbotron { 
   background-image: url("../img/ACTS-Images/welcome2.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;  
   background-size: cover;
-  background-color: #e9ecef;
-  border-radius: 0.3rem;
-}
+  background-color: #e9ecef;  
+  
+  
+  
+} */
+
+/* .jumbotron-height{
+  padding-top:50vh;
+  padding-bottom: 50vh;
+} */
+
+
+  .header{ 
+    background: url("../img/ACTS-Images/welcome2.jpg") no-repeat center center fixed #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top:50vh;
+  padding-bottom: 50vh;
+    
+  }
 
 
 
-.jumbotron-fluid {
-  padding-right: 0;
-  padding-left: 0;
-  border-radius: 0;
-}
 
 .alert {
   position: relative;
@@ -9754,7 +9772,11 @@ header.masthead h3{
   background: rgba(0, 0, 0, 0.719);
   transition: opacity 0.25s ease; 
   text-align: center;
-  margin-bottom: auto;
+  vertical-align: middle;
+  margin-top: 12rem !important;
+  margin-left: 2rem !important;
+  margin-right: 2rem !important;
+  margin-bottom: 12rem !important;
 }
 
 .pillar-box:hover .pillar-box-caption
@@ -9771,7 +9793,7 @@ header.masthead h3{
   background-size: cover;
   color:#ffffff;  
   font-weight: 800;
-  text-align: center; 
+  text-align: center;
   /* will need this for sabbath col - no-repeat center center fixed */
 }
 
@@ -9783,7 +9805,7 @@ header.masthead h3{
   background-size: cover;
   color:#ffffff;
   font-weight: 800;
-  text-align: center;  
+  text-align: center; 
 }
 
 .pillar-box-sociality{
@@ -9794,8 +9816,18 @@ header.masthead h3{
   background-size: cover;
   color:#ffffff;
   font-weight: 800;
-  text-align: center;
-  
+  text-align: center;  
+}
+
+.pillar-box-calander{
+  background: url("../img/ACTS-Images/calander.jpg") no-repeat center center;  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color:#ffffff;
+  font-weight: 800;
+  text-align: center;  
 }
 
 
@@ -9851,6 +9883,8 @@ header.masthead h3{
 #portfolio .container-fluid .portfolio-box {
   position: relative;
   display: block;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption {
